@@ -1,0 +1,7 @@
+create table tracker(
+SERIAL_NUMBER INT primary key GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+IP_ADDRESS varchar(15),
+FILE_NAME varchar(50),
+FILE_SIZE int,
+CHUNKS int
+);
